@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <Wrapper>
       <Content>
-        <Link to="/">
+        <Link to="/movies">
           <LogoImg src={RMDBLogo} alt="rmdblogo" />
         </Link>
         {user ? (
